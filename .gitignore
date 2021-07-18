@@ -1,0 +1,7 @@
+**/.idea
+**/.ipynb_checkpoints
+**/__pycache__
+**/venv
+**/testing
+**/README.ipynb
+**/readme_preprocess_video.py
