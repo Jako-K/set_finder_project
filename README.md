@@ -58,8 +58,6 @@ Visualization of the extraction process:
 <td>
     <img src="./readme_res/card_video_processed2.gif" alt="Drawing"/> </td>
 </tr></table>
-<br>
-
 
 ### Image augmentation - pretraining
 Image augmentations which would be to hard / time consuming to do during training was baked into to the dataset directly. This was done with `do_augmentation.py` which expects a folder structure similar to that provided  by `preprocess_video.py`. The intended effect of performing pretraining image augmentation is to avoid overfitting and to train a YOLO-model which will generalize well, while keeping training time at reasonable level. From pilot runs, I gathered that the most important pretraining augmentations were:
@@ -69,12 +67,9 @@ Image augmentations which would be to hard / time consuming to do during trainin
 * Card rotation and shear
 <!--  Remove bullet point formatting-->
 
-<br>
 Examples of pre-training image augmentations:
 
 ![image](./readme_res/augmentation_examples.jpg)
-
-<br>
 
 ### Annotations
 
@@ -83,9 +78,6 @@ Each augmented image in the dataset is stored together with bounding box coordin
 
 <img src="./readme_res/bb_example.png" alt="drawing" width="400"/>
 
-<br>
-
-### Dataset example
 I have included a small dataset under `./toy_dataset`. This dataset contains a single image per card type and have a smaller image size than the original, but is otherwise identical. The final dataset contained 200 images per card type and was 2x the size. 
 
 <br>
@@ -99,7 +91,7 @@ Training example from Ultrasonic's jupyter notebook tutorial:
 
 ![image](./readme_res/ultralytics_train_tut.jpg)
 
-<br><br>
+<br>
 
 ### Training with Weights and Biases
 Weights and Biases (https://wandb.ai) was an integrated part of the training phase which made it super easy to monitor the model's performance. I've included some of the key figures here
