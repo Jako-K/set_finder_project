@@ -91,8 +91,6 @@ Training example from Ultrasonic's jupyter notebook tutorial:
 
 ![image](./readme_res/ultralytics_train_tut.jpg)
 
-<br>
-
 ### Training with Weights and Biases
 Weights and Biases (https://wandb.ai) was an integrated part of the training phase which made it super easy to monitor the model's performance. I've included some of the key figures here
 <br><br>
@@ -104,8 +102,6 @@ Weights and Biases (https://wandb.ai) was an integrated part of the training pha
 <br>
 <u>Validation metrics:</u>
 ![image](./readme_res/valid_metric.jpg)
-
-<br>
 
 ### Predictions by the final model
 The model ended up pretty successful, there's definitely room for improvement, but its quite robust and works well most of the time. There's a couple of examples below. Notice that model confused blue with red in the image to the right (row 3, column 2). I have included that mistake, because it's the most common one the model makes (i.e. empty red gets confused with blue under artificial light sources).
@@ -137,9 +133,7 @@ There's also a menu, which provide a bit more functionality. This is however pri
 * 3.) Live-button: This is where the app opens and how it's intended to be used.
 
 <!--  Remove bullet point formatting-->
-<br>
 App menu illustrations:
-<br>
 <img src="./readme_res/app_layout.jpg" alt="Drawing" width=750/> </td>
 
 <br>
@@ -155,5 +149,5 @@ There is a total of 81 different cards in the game. Each card is a combination o
 
 The rules of Set is pretty straight forward. The goal of the game is to find 3 cards (a so-called set, hence the name of the game) which obey the following rule: For each of the 4 categories in a set of 3 cards, each card must be the same as the two other cards, or all 3 must have different values. During the game there's normally a total of 12 cards, but 3 extra cards can be added if no sets can be found.
 
-Official game rules:
+Official game rules:<br>
 https://www.setgame.com/sites/default/files/instructions/SET%20INSTRUCTIONS%20-%20ENGLISH.pdf
