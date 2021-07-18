@@ -1,12 +1,12 @@
 # Set Finder App - Screen Recording Demo
 A white bounding box indicates a Set playing card has been detected. The small colored squares within the bounding boxes illustrate which card can be combined to form a set.
 
-```html
 <p align="center">
   <img src="./readme_res/demo1.gif" alt="Drawing"/>
-  <img src="./readme_res/demo2.gif" alt="Drawing"/>
+    <img src="./readme_res/demo2.gif" alt="Drawing"/>
 </p>
-```
+
+<br>
 
 # Acknowledgement
 
@@ -75,7 +75,7 @@ Examples of pre-training image augmentations:
 
 ![image](./readme_res/augmentation_examples.jpg)
 
-### Annotations
+### Dataset and Annotations
 
 Each augmented image in the dataset is stored together with bounding box coordinates (in YOLO-format) and a corresponding label.
 <br>
