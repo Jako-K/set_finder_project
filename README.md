@@ -35,9 +35,9 @@ An overview of the project and its challenges is shown below followed by an in d
 
 ![image](./readme_res/project_overview.png)
 
-## 1.) Creating the dataset
-
 <br>
+
+## 1.) Creating the dataset
 
 ### Video processing
 Creating the dataset was centered around keeping the amount of manual work to a minimum, whilst still obtaining at least a 100 different images for each of the 81 set cards. I ended up achieving this by automatically extracting images from videos I recorded from various angles and under different lighting conditions. `preprocess_video.py` was used to extract and process each individual frame and `combine_video_frame_folder.py` was used to combine folders from different processed videos.
@@ -73,12 +73,14 @@ Image augmentations which would be to hard / time consuming to do during trainin
 Examples of pre-training image augmentations:
 
 ![image](./readme_res/augmentation_examples.jpg)
+
 <br>
 
 ### Annotations
 
 Each augmented image in the dataset is stored together with bounding box coordinates (in YOLO-format) and a corresponding label.
 <br>
+
 <img src="./readme_res/bb_example.png" alt="drawing" width="400"/>
 
 <br>
@@ -94,8 +96,10 @@ Ultralytic (the creators of the YOLO implementation used in the project) has mad
 <br><br>
 Training example from Ultrasonic's jupyter notebook tutorial:
 <br>(https://github.com/ultralytics/yolov5/blob/master/tutorial.ipynb)
+
 ![image](./readme_res/ultralytics_train_tut.jpg)
-<br>
+
+<br><br>
 
 ### Training with Weights and Biases
 Weights and Biases (https://wandb.ai) was an integrated part of the training phase which made it super easy to monitor the model's performance. I've included some of the key figures here
@@ -108,6 +112,7 @@ Weights and Biases (https://wandb.ai) was an integrated part of the training pha
 <br>
 <u>Validation metrics:</u>
 ![image](./readme_res/valid_metric.jpg)
+
 <br>
 
 ### Predictions by the final model
