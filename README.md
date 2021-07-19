@@ -123,7 +123,7 @@ The model ended up pretty successful, there's definitely room for improvement, b
 </tr></table>
 
 ### Optimization - Getting it to run on mobile
-It's one thing to make YOLO run on a fairly beefy computer, but another entirely to make it run on mobile hardware. I tried a lot of optimization stuff, but after a lot of testing, the only thing that seemed to do a significant difference was to export the model to Pytorch's TorchScript. In the end i got around 6-8 frames a second on a Samsung Galaxy 8. The final model is located at `./android_app/app/src/main/assets/yolov5s.torchscript.pt`
+It's one thing to make YOLO run on a fairly beefy computer, but another entirely to make it run on mobile hardware. I tried a lot of optimization stuff, but after a lot of testing, the only thing that seemed to do a significant difference was to export the model to Pytorch's TorchScript. In the end i got around 3 frames a second on a Samsung Galaxy 8. The final model is located at `./android_app/app/src/main/assets/yolov5s.torchscript.pt`
 
 <br>
 
