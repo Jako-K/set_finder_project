@@ -56,7 +56,6 @@ def extract_singe_card(image, contour_threshold, max_contour_threshold = 10**6):
     # Make the background transparent
     b_channel, g_channel, r_channel = cv2.split(image)
     _, _, _, alpha_channel = cv2.split(alpha_mask)
-    return cv2.bitwise_and(image, image, mask=alpha_channel)
 
     image_transparent_background = cv2.merge((b_channel, g_channel, r_channel, alpha_channel))
 
