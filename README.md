@@ -1,10 +1,13 @@
 # Set Finder App - Screen Recording Demo
-A white bounding box indicates a Set playing card has been detected. The small colored squares within the bounding boxes illustrate which card can be combined to form a set.
+These gifs are pretty large and may lack until fully loaded, be patient :)
 
 <p align="center">
   <img src="./readme_res/demo1.gif" alt="Drawing"/>
     <img src="./readme_res/demo2.gif" alt="Drawing"/>
 </p>
+<br>
+
+A white bounding box indicates a Set playing card has been detected. The small colored squares within the bounding boxes illustrate which card can be combined to form a set.
 
 <br>
 
