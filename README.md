@@ -13,7 +13,7 @@ A white bounding box indicates a Set playing card has been detected. The small c
 
 # Acknowledgement
 
-The card detection and classification was done with Ultralytic's implementation of YOLO5:<br>
+The card detection and classification were done with Ultralytic's implementation of YOLO5:<br>
 https://github.com/ultralytics/yolov5 <br><br>
 The android app was based on Pytorch's object detection demo app. I've made a lot of changes to their code in order to make it fit my own needs, but there's still a significant overlap. <br>
 https://github.com/pytorch/android-demo-app/tree/master/ObjectDetection. <br><br>I was initially inspired by the YouTuber geaxgx1 during the research phase of the project, especially his video on card detection has been helpful:<br> https://www.youtube.com/watch?v=pnntrewH0xg
