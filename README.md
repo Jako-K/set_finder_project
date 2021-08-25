@@ -1,6 +1,6 @@
 # Set Finder App - Screen Recording Demo
 
-`Machine Learning`, `Python`, `Pandas`, `Pytorch`, `Object Detection`, `Classification`, `Data Cleaning`, `Data Visualizations`, `Neural Networks`, `Data Augmentation`, `YOLO5`, `Weights & Biases`
+`Machine Learning`, `Python`, `Java`, `Android App`, `Pandas`, `Pytorch`, `Object Detection`, `Classification`, `Data Cleaning`, `Data Visualizations`, `Neural Networks`, `Data Augmentation`, `YOLO5`, `Weights & Biases`
 
 A white bounding box indicates a Set playing card has been detected. The small colored squares within the bounding boxes illustrate which card can be combined to form a set.
 
