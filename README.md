@@ -6,20 +6,13 @@ A white bounding box indicates a Set playing card has been detected. The small c
 
 <br>
 
-<p align="center">
-    <img src="./readme_res/demo.png" alt="Drawing"/>
-</p>
+https://user-images.githubusercontent.com/78201238/130938162-75f746fb-168a-44fa-a7b9-1dd1bbf0bf8f.mp4
 
 <br>
 
-This gif is pretty large and may lack until fully loaded, be patient :)
-
-<p align="center">
-    <img src="./readme_res/demo.gif" alt="Drawing"/>
-</p>
+https://user-images.githubusercontent.com/78201238/130938192-80b2171d-f609-41c5-ab88-940d1e60dd39.mp4
 
 <br>
-
 # Acknowledgement
 
 The card detection and classification were done with Ultralytic's implementation of YOLO5:<br>
@@ -144,9 +137,8 @@ It's one thing to make YOLO run on a fairly beefy computer, but another entirely
 
 Both the app's design and functionality are very simplistic. The app is ready to go as soon as it's opened i.e. cards are being detected and potential sets are being highlighted:<br>
 
-<p align="center">
-  <img src="./readme_res/demo1.gif" alt="Drawing"/>
-</p>
+https://user-images.githubusercontent.com/78201238/130938192-80b2171d-f609-41c5-ab88-940d1e60dd39.mp4
+
 <br>
 A white bounding box indicates a Set playing card has been detected. The small colored squares within the bounding boxes illustrate which cards can be combined to form a set. A single card can potentially be used to form more than 1 set, hence the multiple squares at some cards.
 <br><br>
