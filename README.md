@@ -13,6 +13,8 @@ https://user-images.githubusercontent.com/78201238/130938162-75f746fb-168a-44fa-
 https://user-images.githubusercontent.com/78201238/130938192-80b2171d-f609-41c5-ab88-940d1e60dd39.mp4
 
 <br>
+
+
 # Acknowledgement
 
 The card detection and classification were done with Ultralytic's implementation of YOLO5:<br>
@@ -21,6 +23,7 @@ The android app was based on Pytorch's object detection demo app. I've made a lo
 https://github.com/pytorch/android-demo-app/tree/master/ObjectDetection. <br><br>I was initially inspired by the YouTuber geaxgx1 during the research phase of the project, especially his video on card detection has been helpful:<br> https://www.youtube.com/watch?v=pnntrewH0xg
 
 <br>
+
 
 # Motivation
 The primary motivation of the project was to gain a better understanding of the whole machine learning pipeline i.e. from initial idea to a production-ready application.
@@ -37,7 +40,7 @@ Area 2.) was a bit harder to crack, due to my lack of expertise in the area. I d
 <br>
 
 # Project overview
-The main goal of the project is to develop an android app that can automatically detect so-called sets in the popular card game Set. I've described the rules of the game at the bottom of this page, but it's not important to understand the project. All you need to know is that the game is all about finding sets of 3 cards from a pole of 12-15 different cards. <br>
+The main goal of the project is to develop an android app that can automatically detect so-called sets in the popular card game Set. I've described the rules of the game at the bottom of this page, but it's not important to understand the project. All you need to know, is that the game is all about finding sets of 3 cards from a pole of 12-15 different cards. <br>
 An overview of the project and its challenges is shown below followed by in-depth explanations of each of the 3 subproblems 1.) 2.) and 3.).
 
 <p align="center">
